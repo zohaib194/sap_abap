@@ -1,5 +1,5 @@
 *--------------------------------------------------------------------*
-* Demo: Generate Field Catalog Using CL_SALV_TABLE
+* Demo: Generate Field Catalog Using Class CL_SALV_TABLE
 *--------------------------------------------------------------------*
 
 REPORT sy-repid.
