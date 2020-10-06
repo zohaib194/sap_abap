@@ -3,13 +3,13 @@
 * Application log utility class
 *--------------------------------------------------------------------*
 * Prerequisites 
-* - ZCX_APPL_LOG
-*     Super Class: CX_STATIC_CHECK
-*     Description: Exception Class for ZCL_APPL_LOG
-*     Interfaces : IF_T100_MESSAGE
-*     Methods    : METHOD display.
-*                    MESSAGE me TYPE 'I'.
-*                  ENDMETHOD.
+*  1. Exception Class ZCX_APPL_LOG
+*       Super Class: CX_STATIC_CHECK
+*       Description: Exception Class for ZCL_APPL_LOG
+*       Interfaces : IF_T100_MESSAGE
+*       Methods    : METHOD display.
+*                      MESSAGE me TYPE 'I'.
+*                    ENDMETHOD.
 *--------------------------------------------------------------------*
 
 CLASS zcl_appl_log DEFINITION
