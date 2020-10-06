@@ -1,5 +1,5 @@
 *--------------------------------------------------------------------*
-* Encryption and Decryption a Text Using Class CL_SEC_SXML_WRITER
+* Encrypt and Decrypt a Text Using Class CL_SEC_SXML_WRITER
 *--------------------------------------------------------------------*
 
 DATA:
@@ -96,3 +96,13 @@ CALL FUNCTION 'SCMS_BINARY_TO_STRING'
     OTHERS       = 2.
 
 WRITE:/ 'Inputtext :', lv_inputtext.
+
+*--------------------------------------------------------------------*
+* Result
+*--------------------------------------------------------------------*
+* Inputtext : Lorem ipsum dolor sit amet.
+* Plaintext : 4C6F72656D20697073756D20646F6C6F722073697420616D65742E
+* Key       : 46E4100E67DDD7AC769CAA108C732784
+* Ciphertext: AD55D87C4C21A6DB663DCB8B7F48971F382EB58AA52AF898DCB91C5CE1F9F886F81CF78F5F4025DA5BF85DB707B71E41
+* Plaintext : 4C6F72656D20697073756D20646F6C6F722073697420616D65742E
+* Inputtext : Lorem ipsum dolor sit amet.
