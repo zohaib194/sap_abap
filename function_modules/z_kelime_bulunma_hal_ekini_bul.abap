@@ -1,5 +1,5 @@
 *--------------------------------------------------------------------*
-* Z_KELIME_HAL_EKI_BUL
+* Z_KELIME_BULUNMA_HAL_EKINI_BUL
 * Kelimenin bulunma hali (-de,-da,-te,-ta) ekini bulur
 *--------------------------------------------------------------------*
 *
@@ -9,15 +9,15 @@
 *
 * Türkçe'de ismin beş farklı hâli vardır:
 * - Yalın hâli
-* - Yönelme hâli (-e)
+* - Yönelme hâli  (-e)
 * - Belirtme hâli (-i)
-* - Bulunma hâli (-de)
-* - Ayrılma hâli (-den)
+* - Bulunma hâli  (-de)
+* - Ayrılma hâli  (-den)
 *
 * Türkçe'de harflerin sınıflandırması aşağıdaki gibidir:
-* - Kalın Ünlüler (a, ı, o, u)
-* - İnce Ünlüler (e, i ,ö, ü)
-* - Sert Ünsüzler (ç, f, h, k, p, s, ş, t)
+* - Kalın Ünlüler    (a, ı, o, u)
+* - İnce Ünlüler     (e, i ,ö, ü)
+* - Sert Ünsüzler    (ç, f, h, k, p, s, ş, t)
 * - Yumuşak Ünsüzler (b, c, d, g, ğ, j, l, m, n, r, v, y, z)
 *
 * Bir kelime için bulunma hâli ekinin (-de, -da, -te, -ta) bulunması
@@ -40,20 +40,20 @@
 *
 * | Bir önceki harf | Önceki harf | Son harf      | Bulunma hali | Örnekler |
 * | --------------- | ----------- | ------------- | ------------ | -------- |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
-* |                 |             |               |              |          |
+* | Herhangi        | Herhangi    | Kalın ünlü    | da           | sobada   |
+* | Herhangi        | Herhangi    | İnce ünlü     | de           | örgüde   |
+* | Herhangi        | Kalın ünlü  | Sert ünsüz    | ta           | sokakta  |
+* | Herhangi        | İnce ünlü   | Sert ünsüz    | te           | piknikte |
+* | Kalın ünlü      | Sessiz      | Sert ünsüz    | ta           | altta    |
+* | İnce ünlü       | Sessiz      | Sert ünsüz    | te           | üstte    |
+* | Herhangi        | Kalın ünlü  | Yumuşak ünsüz | da           | okulda   |
+* | Herhangi        | İnce ünlü   | Yumuşak ünsüz | de           | şiirde   |
+* | Kalın ünlü      | Sessiz      | Yumuşak ünsüz | da           | tarzda   |
+* | İnce ünlü       | Sessiz      | Yumuşak ünsüz | de           |          |
 *
 *--------------------------------------------------------------------*
 
-FUNCTION z_kelime_hal_eki_bul.
+FUNCTION z_kelime_bulunma_hal_ekini_bul.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
