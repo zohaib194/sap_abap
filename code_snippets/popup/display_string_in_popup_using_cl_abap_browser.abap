@@ -1,5 +1,5 @@
 *--------------------------------------------------------------------*
-* Display String in Popup Using CL_ABAP_BROWSER
+* Display String in Popup Using Class CL_ABAP_BROWSER
 *--------------------------------------------------------------------*
 
 DATA l_gui_on.
