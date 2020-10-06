@@ -1,7 +1,7 @@
 *&---------------------------------------------------------------------*
 *&      Form  ALV_FIELDCAT_GENERATE
 *&---------------------------------------------------------------------*
-*       Generate Field Catalog Using CL_SALV_TABLE
+*       Generate Field Catalog Using Class CL_SALV_TABLE
 *----------------------------------------------------------------------*
 FORM alv_fieldcat_generate
   USING
