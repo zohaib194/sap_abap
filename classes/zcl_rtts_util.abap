@@ -1,5 +1,6 @@
 *--------------------------------------------------------------------*
-* ZCL_RTTS_UTIL - RTTS Utility Class
+* ZCL_RTTS_UTIL
+* RTTS Utility Class
 *--------------------------------------------------------------------*
 
 CLASS zcl_rtts_util DEFINITION
