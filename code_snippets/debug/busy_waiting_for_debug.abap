@@ -9,6 +9,8 @@
 *       SET/GET parameters for debug
 *       - Z_DEBUG_IS_ACTIVE - Debug on/off switch
 *       - Z_DEBUG_DURATION  - Debug duration in seconds
+*
+*       SM51 - Work Processes
 *----------------------------------------------------------------------*
 FORM busy_waiting_for_debug.
 
